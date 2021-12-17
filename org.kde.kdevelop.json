@@ -2,9 +2,18 @@
     "id": "org.kde.kdevelop",
     "runtime": "org.kde.Sdk",
     "runtime-version": "5.15-21.08",
+    "add-extensions": {
+        "org.freedesktop.Sdk.Extension.llvm12": {
+            "directory": "/usr/lib/sdk/llvm12",
+            "version": "21.08"
+        }
+    },
     "base": "io.qt.qtwebengine.BaseApp",
     "base-version": "5.15-21.08",
     "sdk": "org.kde.Sdk",
+    "sdk-extensions" : [
+        "org.freedesktop.Sdk.Extension.llvm12"
+    ],
     "command": "kdevelop",
     "finish-args": [
         "--allow=devel",
@@ -188,6 +197,10 @@
             "config-opts": [
                 "-DBUILD_TESTING=OFF"
             ],
+            "build-options":{
+                "prepend-path": "/usr/lib/sdk/llvm12/bin",
+                "prepend-ld-library-path": "/usr/lib/sdk/llvm12/lib"
+            },
             "sources": [
                 {
                     "type": "archive",
