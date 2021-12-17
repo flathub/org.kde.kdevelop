@@ -1,10 +1,19 @@
 {
     "id": "org.kde.kdevelop",
     "runtime": "org.kde.Sdk",
-    "runtime-version": "5.15",
+    "runtime-version": "5.15-21.08",
+    "add-extensions": {
+        "org.freedesktop.Sdk.Extension.llvm12": {
+            "directory": "/usr/lib/sdk/llvm12",
+            "version": "21.08"
+        }
+    },
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "5.15",
+    "base-version": "5.15-21.08",
     "sdk": "org.kde.Sdk",
+    "sdk-extensions" : [
+        "org.freedesktop.Sdk.Extension.llvm12"
+    ],
     "command": "kdevelop",
     "finish-args": [
         "--allow=devel",
@@ -56,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/qca/2.3.3/qca-2.3.3.tar.xz",
-                    "sha256": "562e8f9b8542944e2c0c18c45c05bb202f620db84032790c54b424454f727b67"
+                    "url": "https://download.kde.org/stable/qca/2.3.4/qca-2.3.4.tar.xz",
+                    "sha256": "6b695881a7e3fd95f73aaee6eaeab96f6ad17e515e9c2b3d4b3272d7862ff5c4"
                 }
             ]
         },
@@ -70,8 +79,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org//stable/release-service/20.12.0/src/libkomparediff2-20.12.0.tar.xz",
-                    "sha256": "8b92b729d2d1c7998b22ffd6a7ae95f46954785d4855ce6cfa7a1fb401cf66ec"
+                    "url": "https://download.kde.org//stable/release-service/21.12.0/src/libkomparediff2-21.12.0.tar.xz",
+                    "sha256": "0d0d85ddb687e3c2e8e8550558f48eac898500cc0fd607a3dc6b387ab44172cd"
                 }
             ]
         },
@@ -84,8 +93,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/okteta/0.26.4/src/okteta-0.26.4.tar.xz",
-                    "sha256": "ef22b096c4d8a682b5467ee7d8e9e05ede44cde116daef804312745c4bfd0f03"
+                    "url": "https://download.kde.org/stable/okteta/0.26.6/src/okteta-0.26.6.tar.xz",
+                    "sha256": "c569cd5b55503e46df1a5b5c9162b08888c426aa52c6f3f2f926c658bee0144c"
                 }
             ]
         },
@@ -98,8 +107,50 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.76/krunner-5.76.0.tar.xz",
-                    "sha256": "08c8addcdd3dac87472e84bd14c6d02b99f98c5efbbda7802de92286105dcdda"
+                    "url": "https://download.kde.org/stable/frameworks/5.88/krunner-5.88.0.tar.xz",
+                    "sha256": "bae4bab2de20caf0ad6f87d32d5d9c7e807342986571cdffeea3259acdccb35c"
+                }
+            ]
+        },
+        {
+            "name": "libnl",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/thom311/libnl/releases/download/libnl3_5_0/libnl-3.5.0.tar.gz",
+                    "sha256": "352133ec9545da76f77e70ccb48c9d7e5324d67f6474744647a7ed382b5e05fa"
+                }
+            ]
+        },
+        {
+            "name": "lm_sensors",
+            "buildsystem": "simple",
+            "build-commands": [
+                "sed -i -e 's/ -g / -s /' Makefile",
+                "make -j $FLATPAK_BUILDER_N_JOBS",
+                "find . -type f | perl -lne 'print if -B and -x' | xargs strip",
+                "make install BUILD_STATIC_LIB=0 DEBUG=0 PREFIX=/ DESTDIR=$FLATPAK_DEST"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/lm-sensors/lm-sensors/archive/V3-6-0/lm-sensors-3-6-0.tar.gz",
+                    "sha256": "0591f9fa0339f0d15e75326d0365871c2d4e2ed8aa1ff759b3a55d3734b7d197"
+                }
+            ]
+        },
+        {
+            "name": "libpcap",
+            "cleanup": [
+                "/include",
+                "/share",
+                "/lib/pkgconfig"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.tcpdump.org/release/libpcap-1.10.1.tar.gz",
+                    "sha256": "ed285f4accaf05344f90975757b3dbfe772ba41d1c401c2648b7fa45b711bdd4"
                 }
             ]
         },
@@ -113,12 +164,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org//stable/plasma/5.20.4/libksysguard-5.20.4.tar.xz",
-                    "sha256": "a89968476cb8a888550e1a5138ab8e86eeb49788187192cba71f79abd4aad422"
-                },
-                {
-                    "type": "patch",
-                    "path": "libksysguard_helper.patch"
+                    "url": "https://download.kde.org//stable/plasma/5.23.4/libksysguard-5.23.4.tar.xz",
+                    "sha256": "9c1e08cb9a30a23be0485bb015515b271ebbba9a8a00f4a635a226ce152e33f6"
                 }
             ]
         },
@@ -128,8 +175,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.12.1/src/konsole-20.12.1.tar.xz",
-                    "sha256": "b690be392462cab5abac74d1e1010c3f991c3d00968b51ed5525040640d769ec"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/konsole-21.12.0.tar.xz",
+                    "sha256": "f3529987eb7b7c1a11f2efa110023925a47a7d02cc96a41160e671742fe36f73"
                 }
             ]
         },
@@ -150,15 +197,15 @@
             "config-opts": [
                 "-DBUILD_TESTING=OFF"
             ],
+            "build-options":{
+                "prepend-path": "/usr/lib/sdk/llvm12/bin",
+                "prepend-ld-library-path": "/usr/lib/sdk/llvm12/lib"
+            },
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdevelop/5.6.1/src/kdevelop-5.6.1.tar.xz",
-                    "sha256": "9e4488522275ebef9d68eebb68523a99e1c58d35e8d75127f7d749784c2e370a"
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata.patch"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kdevelop-21.12.0.tar.xz",
+                    "sha256": "64337d5a3141171be920bb2c1be23556c0d2d6361b461a5ce4266f490f19619f"
                 }
             ]
         },
@@ -171,8 +218,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdevelop/5.6.1/src/kdev-python-5.6.1.tar.xz",
-                    "sha256": "00d5db9596b7db9a6dd109fd3605dc155ac849b1b88328e038d4cf7b7fd575f3"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kdev-python-21.12.0.tar.xz",
+                    "sha256": "9dddb76e6d7bb61605839217609cc864b95e8f4524c4f2499f5911c9d76ece0a"
                 }
             ]
         },
@@ -185,8 +232,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdevelop/5.6.1/src/kdev-php-5.6.1.tar.xz",
-                    "sha256": "702f12a1ad0caadd020ac30294b70ec6426e7961ac439d270f3010748b3f7a5a"
+                    "url": "https://download.kde.org/stable/release-service/21.12.0/src/kdev-php-21.12.0.tar.xz",
+                    "sha256": "ff94674413f4f1eec4c631675e413bc733565934eb65e44998fbc2b6ba09410b"
                 }
             ]
         },
@@ -196,8 +243,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://cmake.org/files/v3.19/cmake-3.19.3.tar.gz",
-                    "sha256": "3faca7c131494a1e34d66e9f8972ff5369e48d419ea8ceaa3dc15b4c11367732"
+                    "url": "https://github.com/Kitware/CMake/releases/download/v3.22.1/cmake-3.22.1.tar.gz",
+                    "sha256": "0e998229549d7b3f368703d20e248e7ee1f853910d42704aa87918c213ea82c0"
                 }
             ]
         }
