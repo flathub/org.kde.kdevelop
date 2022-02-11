@@ -201,6 +201,9 @@
                 "prepend-path": "/usr/lib/sdk/llvm12/bin",
                 "prepend-ld-library-path": "/usr/lib/sdk/llvm12/lib"
             },
+            "post-install": [
+                "mkdir -p /app/usr/lib/sdk/llvm12"
+            ],
             "sources": [
                 {
                     "type": "archive",
