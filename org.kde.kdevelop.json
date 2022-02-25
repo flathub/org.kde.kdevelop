@@ -8,10 +8,17 @@
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.llvm12"
     ],
+    "add-extensions": {
+        "org.freedesktop.Sdk.Extension.llvm12": {
+            "no-autodownload": "false",
+            "version": "21.08"
+        }
+    },
     "command": "kdevelop",
     "finish-args": [
         "--allow=devel",
         "--device=dri",
+        "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm12/bin",
         "--filesystem=host",
         "--own-name=org.kdevelop.*",
         "--share=ipc",
