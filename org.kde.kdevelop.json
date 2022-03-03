@@ -80,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org//stable/release-service/21.12.2/src/libkomparediff2-21.12.2.tar.xz",
-                    "sha256": "9f2463d2f924b5c1570e9d124a64f0d428db01ef166e769f48dd076d0dfbdf1f"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/libkomparediff2-21.12.3.tar.xz",
+                    "sha256": "a2815b6c9fc08172b4e39b27c25764baa96de40d6ca298544085fba692a323c9"
                 }
             ]
         },
@@ -176,8 +176,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/konsole-21.12.2.tar.xz",
-                    "sha256": "aa3bbfe76c0c0a8891bf8e7bc88267dbdea3368651c6b2f5316434a618fcfe01"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/konsole-21.12.3.tar.xz",
+                    "sha256": "1a9727a1ab878bce3419a3fa9cedf41cf0ed778dc7d9ce5a66314755bba8581b"
                 }
             ]
         },
@@ -198,15 +198,15 @@
             "config-opts": [
                 "-DBUILD_TESTING=OFF"
             ],
-            "build-options":{
+            "build-options": {
                 "prepend-path": "/usr/lib/sdk/llvm12/bin",
                 "prepend-ld-library-path": "/usr/lib/sdk/llvm12/lib"
             },
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kdevelop-21.12.2.tar.xz",
-                    "sha256": "ff39eb0db130c3bf337fa67744d2537e160f2ac92ce3ab26036631b9769f6f8e"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kdevelop-21.12.3.tar.xz",
+                    "sha256": "86f36502559675aaae2afc8f2d649ee29997cd75a32116acf63e9edce94717ea"
                 }
             ]
         },
@@ -219,8 +219,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kdev-python-21.12.2.tar.xz",
-                    "sha256": "92a2dadc706d8adb2b9ed2cba9517d8c14c46e141640fe7b5ef7cda70e3e5216"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kdev-python-21.12.3.tar.xz",
+                    "sha256": "06671e072a1ba61ca6a4e6710cc47d20c6c123641a71ab8499b5b8461d0bcfc7"
                 }
             ]
         },
@@ -233,8 +233,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kdev-php-21.12.2.tar.xz",
-                    "sha256": "12819ccc956f7ac90947a5643ebec1b3a25457623c92aff4ce7e5e0429751d3e"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kdev-php-21.12.3.tar.xz",
+                    "sha256": "4a85438a51bf6e3faedca3f64c2ffd08355d20fd4214c12fe010f003f5c3b17c"
                 }
             ]
         },
