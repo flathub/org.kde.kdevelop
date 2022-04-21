@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/libkomparediff2-21.12.3.tar.xz",
-                    "sha256": "a2815b6c9fc08172b4e39b27c25764baa96de40d6ca298544085fba692a323c9"
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/libkomparediff2-22.04.0.tar.xz",
+                    "sha256": "9c9ff478d4e31cc0b0dc980238956d92f683e6ff55dc1c6b67e3212c7e7e0711"
                 }
             ]
         },
@@ -182,8 +182,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/konsole-21.12.3.tar.xz",
-                    "sha256": "1a9727a1ab878bce3419a3fa9cedf41cf0ed778dc7d9ce5a66314755bba8581b"
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/konsole-22.04.0.tar.xz",
+                    "sha256": "bf9b69a0d86ae3c94f01132b9fa8361cee95ff72ddad0002f3b95ce42777dbf3"
                 }
             ]
         },
@@ -211,8 +211,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kdevelop-21.12.3.tar.xz",
-                    "sha256": "86f36502559675aaae2afc8f2d649ee29997cd75a32116acf63e9edce94717ea"
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/kdevelop-22.04.0.tar.xz",
+                    "sha256": "ab7a1828ab67475c85d84f603ab245fa762006d1a4953be42add2dfd23ae4a16"
                 }
             ]
         },
@@ -225,8 +225,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kdev-python-21.12.3.tar.xz",
-                    "sha256": "06671e072a1ba61ca6a4e6710cc47d20c6c123641a71ab8499b5b8461d0bcfc7"
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/kdev-python-22.04.0.tar.xz",
+                    "sha256": "11e527aa0f0a907cf5821efa3cd7e763166fe0421b9485b1e781a1321aa548dc"
                 }
             ]
         },
@@ -239,8 +239,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kdev-php-21.12.3.tar.xz",
-                    "sha256": "4a85438a51bf6e3faedca3f64c2ffd08355d20fd4214c12fe010f003f5c3b17c"
+                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/kdev-php-22.04.0.tar.xz",
+                    "sha256": "be846cf516450e686432062ba41ce04061b9e4587e9d4e955321ab6f57f65502"
                 }
             ]
         },
