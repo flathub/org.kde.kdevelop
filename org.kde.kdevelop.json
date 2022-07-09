@@ -73,7 +73,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/qca/2.3.4/qca-2.3.4.tar.xz",
-                    "sha256": "6b695881a7e3fd95f73aaee6eaeab96f6ad17e515e9c2b3d4b3272d7862ff5c4"
+                    "sha256": "6b695881a7e3fd95f73aaee6eaeab96f6ad17e515e9c2b3d4b3272d7862ff5c4",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 13606,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/qca/$version/qca-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -87,7 +93,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkomparediff2-22.04.3.tar.xz",
-                    "sha256": "13f11a4025c06ac685348fed5aa56f9ab967b3ef748942069cfa64c34e5f5ded"
+                    "sha256": "13f11a4025c06ac685348fed5aa56f9ab967b3ef748942069cfa64c34e5f5ded",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/libkomparediff2-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -101,7 +113,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/okteta/0.26.6/src/okteta-0.26.6.tar.xz",
-                    "sha256": "c569cd5b55503e46df1a5b5c9162b08888c426aa52c6f3f2f926c658bee0144c"
+                    "sha256": "c569cd5b55503e46df1a5b5c9162b08888c426aa52c6f3f2f926c658bee0144c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 229042,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/okteta/$version/src/okteta-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -115,7 +133,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/frameworks/5.88/krunner-5.88.0.tar.xz",
-                    "sha256": "bae4bab2de20caf0ad6f87d32d5d9c7e807342986571cdffeea3259acdccb35c"
+                    "sha256": "bae4bab2de20caf0ad6f87d32d5d9c7e807342986571cdffeea3259acdccb35c",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8762,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/krunner-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -172,7 +196,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org//stable/plasma/5.23.4/libksysguard-5.23.4.tar.xz",
-                    "sha256": "9c1e08cb9a30a23be0485bb015515b271ebbba9a8a00f4a635a226ce152e33f6"
+                    "sha256": "9c1e08cb9a30a23be0485bb015515b271ebbba9a8a00f4a635a226ce152e33f6",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8761,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/plasma/$version/libksysguard-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -183,7 +213,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/22.04.3/src/konsole-22.04.3.tar.xz",
-                    "sha256": "148f65891318e6a6f31793c9535e2bf32068b1cae8c5026e54f360bea484d9a7"
+                    "sha256": "148f65891318e6a6f31793c9535e2bf32068b1cae8c5026e54f360bea484d9a7",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/konsole-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -194,7 +230,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/kdevelop-pg-qt/2.2.1/src/kdevelop-pg-qt-2.2.1.tar.xz",
-                    "sha256": "c13931788ac9dc02188cdd9c6e71e164ae81b4568b048748652bbf6fa4a9c62b"
+                    "sha256": "c13931788ac9dc02188cdd9c6e71e164ae81b4568b048748652bbf6fa4a9c62b",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kdevelop-pg-qt-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -212,7 +254,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/22.04.3/src/kdevelop-22.04.3.tar.xz",
-                    "sha256": "9b5e65cb9260774d5d1088ca5bdb33102e6301a57a30dd26105e9be43ba5bc0d"
+                    "sha256": "9b5e65cb9260774d5d1088ca5bdb33102e6301a57a30dd26105e9be43ba5bc0d",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kdevelop-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -226,7 +274,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/22.04.3/src/kdev-python-22.04.3.tar.xz",
-                    "sha256": "a063ac932dcc696328328bb382c5dbc57dd65d8ed6400238513d1898db6fa8b4"
+                    "sha256": "a063ac932dcc696328328bb382c5dbc57dd65d8ed6400238513d1898db6fa8b4",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kdev-python-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -240,7 +294,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/22.04.3/src/kdev-php-22.04.3.tar.xz",
-                    "sha256": "1a267c2eaed3658ac0b2dacc28956867eab7608bacf57b3041952a868f27c915"
+                    "sha256": "1a267c2eaed3658ac0b2dacc28956867eab7608bacf57b3041952a868f27c915",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kdev-php-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -251,7 +311,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/Kitware/CMake/releases/download/v3.22.1/cmake-3.22.1.tar.gz",
-                    "sha256": "0e998229549d7b3f368703d20e248e7ee1f853910d42704aa87918c213ea82c0"
+                    "sha256": "0e998229549d7b3f368703d20e248e7ee1f853910d42704aa87918c213ea82c0",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 306,
+                        "stable-only": true,
+                        "url-template": "https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version.tar.gz"
+                    }
                 }
             ]
         }
