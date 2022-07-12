@@ -132,8 +132,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.88/krunner-5.88.0.tar.xz",
-                    "sha256": "bae4bab2de20caf0ad6f87d32d5d9c7e807342986571cdffeea3259acdccb35c",
+                    "url": "https://download.kde.org/stable/frameworks/5.96/krunner-5.96.0.tar.xz",
+                    "sha256": "935efb9ec69d9c99208e6a4b3ff3dcb6f5c773acd332846a4d60d5c461b5a271",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -195,8 +195,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/5.25.2/libksysguard-5.25.2.tar.xz",
-                    "sha256": "9ef502174c6a6e0f6734ee8fca0a790f9d487857c8851c5003520f2027ed1c08",
+                    "url": "https://download.kde.org/stable/plasma/5.25.3/libksysguard-5.25.3.tar.xz",
+                    "sha256": "094503e82a9782e31ed8ed58487cca2fd14da168196fa7b89c3657bc65cf39d7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
