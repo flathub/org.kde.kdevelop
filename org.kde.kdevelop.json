@@ -233,9 +233,9 @@
                     "sha256": "c13931788ac9dc02188cdd9c6e71e164ae81b4568b048748652bbf6fa4a9c62b",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 8763,
+                        "project-id": 17733,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kdevelop-pg-qt-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/kdevelop-pg-qt/$version/src/kdevelop-pg-qt-$version.tar.xz"
                     }
                 }
             ]
