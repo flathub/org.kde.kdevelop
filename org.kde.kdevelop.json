@@ -25,7 +25,8 @@
         "--share=network",
         "--socket=cups",
         "--socket=wayland",
-        "--socket=x11"
+        "--socket=x11",
+        "--talk-name=org.freedesktop.Flatpak"
     ],
     "modules": [
         {
