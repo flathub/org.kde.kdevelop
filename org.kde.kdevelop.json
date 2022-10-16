@@ -59,8 +59,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://downloads.grantlee.org/grantlee-5.2.0.tar.gz",
-                    "sha256": "d6cd04de39a073a787c9ab8e72a0888e40779d21b83fbc788a1b36d31ac659d5"
+                    "url": "https://github.com/steveire/grantlee/archive/v5.3.0.tar.gz",
+                    "sha256": "8c52cd4b0fa86f2bb0a3627d6bee8286f269cd7122a0115101cdec9441669ff2",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 21448,
+                        "stable-only": true,
+                        "url-template": "https://github.com/steveire/grantlee/archive/v$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -150,7 +156,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/thom311/libnl/releases/download/libnl3_5_0/libnl-3.5.0.tar.gz",
-                    "sha256": "352133ec9545da76f77e70ccb48c9d7e5324d67f6474744647a7ed382b5e05fa"
+                    "sha256": "352133ec9545da76f77e70ccb48c9d7e5324d67f6474744647a7ed382b5e05fa",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1684,
+                        "stable-only": true,
+                        "url-template": "https://github.com/thom311/libnl/releases/download/libnl${major}_${minor}_$patch/libnl-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -167,7 +179,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/lm-sensors/lm-sensors/archive/V3-6-0/lm-sensors-3-6-0.tar.gz",
-                    "sha256": "0591f9fa0339f0d15e75326d0365871c2d4e2ed8aa1ff759b3a55d3734b7d197"
+                    "sha256": "0591f9fa0339f0d15e75326d0365871c2d4e2ed8aa1ff759b3a55d3734b7d197",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1831,
+                        "stable-only": true,
+                        "url-template": "https://github.com/lm-sensors/lm-sensors/archive/V${major}-${minor}-$patch/lm-sensors-${major}-${minor}-$patch.tar.gz"
+                    }
                 }
             ]
         },
@@ -182,7 +200,13 @@
                 {
                     "type": "archive",
                     "url": "https://www.tcpdump.org/release/libpcap-1.10.1.tar.gz",
-                    "sha256": "ed285f4accaf05344f90975757b3dbfe772ba41d1c401c2648b7fa45b711bdd4"
+                    "sha256": "ed285f4accaf05344f90975757b3dbfe772ba41d1c401c2648b7fa45b711bdd4",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1702,
+                        "stable-only": true,
+                        "url-template": "https://www.tcpdump.org/release/libpcap-$version.tar.gz"
+                    }
                 }
             ]
         },
