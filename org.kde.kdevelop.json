@@ -99,8 +99,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/libkomparediff2-22.08.3.tar.xz",
-                    "sha256": "bd51abb720184f93a06fbfa562d1604c0e52873676b785cd1ed0329f20af9f30",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/libkomparediff2-22.12.0.tar.xz",
+                    "sha256": "7ecc303850669bb0c3b62ae44ea0aaac86f4adb0eb86f52765da4f9ab63d3d32",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -220,8 +220,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/5.26.3/libksysguard-5.26.3.tar.xz",
-                    "sha256": "c940eedc468a1862728bea329ba5172b1f19eaa1ac2382c533061b4b237b76d1",
+                    "url": "https://download.kde.org/stable/plasma/5.26.4/libksysguard-5.26.4.tar.xz",
+                    "sha256": "eb954bab3eb26e4b891e0838097529fe73499b2f843bc1ed17ccc64db085b5e8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -237,8 +237,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/konsole-22.08.3.tar.xz",
-                    "sha256": "a6f07c4dc05b52c7844071137b6fe1b21f3cb54c63164d81c9a6332720fac09a",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/konsole-22.12.0.tar.xz",
+                    "sha256": "a76a929ecde12b60645c0c73aa448c408a778a859c0ca01cba1025a102efa8a8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -278,8 +278,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/kdevelop-22.08.3.tar.xz",
-                    "sha256": "3c3baf212fd6ffd7ccb5b0796c2b43e252235c25275979c1570c44f80821f9d6",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/kdevelop-22.12.0.tar.xz",
+                    "sha256": "d58264a8a80321888c9e8f918f8fa94c725441e35762e1ca457e86aa449a791c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -318,8 +318,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/kdev-php-22.08.3.tar.xz",
-                    "sha256": "b727e89b7d9c421d100017190c8172d360667a2dfaa9de32699ca5667f8839c1",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/kdev-php-22.12.0.tar.xz",
+                    "sha256": "e87a03fc34836e23f1c47ccdf7e3704fda27c0ddeaf288738268c39af76c3053",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -335,8 +335,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v3.24.3/cmake-3.24.3.tar.gz",
-                    "sha256": "b53aa10fa82bff84ccdb59065927b72d3bee49f4d86261249fc0984b3b367291",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v3.25.1/cmake-3.25.1.tar.gz",
+                    "sha256": "1c511d09516af493694ed9baf13c55947a36389674d657a2d5e0ccedc6b291d8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
