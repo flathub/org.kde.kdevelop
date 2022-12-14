@@ -39,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.tar.bz2",
-                    "sha256": "1e19565d82e43bc59209a168f5ac899d3ba471d55c7610c677d4ccf2c9c500c0",
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.81.0/source/boost_1_81_0.tar.bz2",
+                    "sha256": "71feeed900fbccca04a3b4f2f84a7c217186f28a940ed8b7ed4725986baf99fa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -139,8 +139,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.99/krunner-5.99.0.tar.xz",
-                    "sha256": "2521878b156c6f4f8b50e8b575fdffe170310ca32316f76ab45ebdb5ff66c8d9",
+                    "url": "https://download.kde.org/stable/frameworks/5.101/krunner-5.101.0.tar.xz",
+                    "sha256": "d25fcc168234777352dd4d11ac0f46a916d6b17d4cd9078e3a615a7804865fa6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
