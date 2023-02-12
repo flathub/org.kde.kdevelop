@@ -139,8 +139,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.102/krunner-5.102.0.tar.xz",
-                    "sha256": "ce7d2c0ea598362b15e867196697871f6100a2c9d333b969800adf23d1aa6b3f",
+                    "url": "https://download.kde.org/stable/frameworks/5.103/krunner-5.103.0.tar.xz",
+                    "sha256": "05e89ea5f996caf8bc7df13f340eb33066edb98b29c8e367ede261eacc15ca72",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
