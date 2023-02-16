@@ -1,24 +1,24 @@
 {
     "id": "org.kde.kdevelop",
     "runtime": "org.kde.Sdk",
-    "runtime-version": "5.15-21.08",
+    "runtime-version": "5.15-22.08",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "5.15-21.08",
+    "base-version": "5.15-22.08",
     "sdk": "org.kde.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.llvm12"
+        "org.freedesktop.Sdk.Extension.llvm14"
     ],
     "add-extensions": {
-        "org.freedesktop.Sdk.Extension.llvm12": {
+        "org.freedesktop.Sdk.Extension.llvm14": {
             "no-autodownload": "false",
-            "version": "21.08"
+            "version": "22.08"
         }
     },
     "command": "kdevelop",
     "finish-args": [
         "--allow=devel",
         "--device=dri",
-        "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm12/bin",
+        "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm14/bin",
         "--filesystem=host",
         "--own-name=org.kdevelop.*",
         "--share=ipc",
@@ -272,8 +272,8 @@
                 "-DBUILD_TESTING=OFF"
             ],
             "build-options": {
-                "prepend-path": "/usr/lib/sdk/llvm12/bin",
-                "prepend-ld-library-path": "/usr/lib/sdk/llvm12/lib"
+                "prepend-path": "/usr/lib/sdk/llvm14/bin",
+                "prepend-ld-library-path": "/usr/lib/sdk/llvm14/lib"
             },
             "sources": [
                 {
