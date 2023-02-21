@@ -220,8 +220,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/5.27.0/libksysguard-5.27.0.tar.xz",
-                    "sha256": "652d37197c05c43d3033c67153d482a238cac97351054d4c82e67e3745719a06",
+                    "url": "https://download.kde.org/stable/plasma/5.27.1/libksysguard-5.27.1.tar.xz",
+                    "sha256": "1272b91be5dd6840ac624a113e381930b58481cedb51af311c804ee2b9ac2f4f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
