@@ -298,8 +298,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.2/src/kdev-python-22.12.2.tar.xz",
-                    "sha256": "2521f2f2a7174dfb2bf1d962c460d40addc3bb486e9823c2b2707ced33456430",
+                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/kdev-python-22.12.3.tar.xz",
+                    "sha256": "fa6640519f23c275a75b7969bf4cc3f3ff41e7cf2f400137846972b7da936e79",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
