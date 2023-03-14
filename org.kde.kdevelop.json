@@ -220,8 +220,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/5.27.2/libksysguard-5.27.2.tar.xz",
-                    "sha256": "d6ba78569cff361254625375c4aebe9bed4fe4982e3b1d6570060b75c0737a06",
+                    "url": "https://download.kde.org/stable/plasma/5.27.3/libksysguard-5.27.3.tar.xz",
+                    "sha256": "3ff2bb6f7cd614e081729dd4dd99ae627b3a4a2f0e6953654db70093afd1bb1f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -335,8 +335,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v3.25.3/cmake-3.25.3.tar.gz",
-                    "sha256": "cc995701d590ca6debc4245e9989939099ca52827dd46b5d3592f093afe1901c",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v3.26.0/cmake-3.26.0.tar.gz",
+                    "sha256": "4256613188857e95700621f7cdaaeb954f3546a9249e942bc2f9b3c26e381365",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
