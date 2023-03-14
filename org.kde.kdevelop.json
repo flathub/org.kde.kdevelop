@@ -184,7 +184,7 @@
                         "type": "anitya",
                         "project-id": 1831,
                         "stable-only": true,
-                        "url-template": "https://github.com/lm-sensors/lm-sensors/archive/V${major}-${minor}-$patch/lm-sensors-${major}-${minor}-$patch.tar.gz"
+                        "url-template": "https://github.com/lm-sensors/lm-sensors/archive/V${version}/lm-sensors-${version}.tar.gz"
                     }
                 }
             ]
