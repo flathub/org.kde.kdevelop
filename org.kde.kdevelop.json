@@ -39,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.82.0/source/boost_1_82_0.tar.bz2",
-                    "sha256": "a6e1ab9b0860e6a2881dd7b21fe9f737a095e5f33a3a874afc6a345228597ee6",
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.83.0/source/boost_1_83_0.tar.bz2",
+                    "sha256": "6478edfe2f3305127cffe8caf73ea0176c53769f4bf1585be237eb30798c3b8e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -119,8 +119,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/okteta/0.26.12/src/okteta-0.26.12.tar.xz",
-                    "sha256": "49c26b68beaa774e82583abfa971b1d847a73432864e7f7d41b3ed99da4372a1",
+                    "url": "https://download.kde.org/stable/okteta/0.26.13/src/okteta-0.26.13.tar.xz",
+                    "sha256": "14e59810d1811f5137151303f3d5ecad640feabc982277d9ca447b3233d89772",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 229042,
@@ -139,8 +139,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.108/krunner-5.108.0.tar.xz",
-                    "sha256": "309665a7868a84f7e5563a7b171e96e9ccae18c92ce78f09d5fccb3018085579",
+                    "url": "https://download.kde.org/stable/frameworks/5.109/krunner-5.109.0.tar.xz",
+                    "sha256": "5c0ca1c745644a16590f3299384f40b04bd73f4842a63f228e166afab246f35f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -335,8 +335,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v3.27.1/cmake-3.27.1.tar.gz",
-                    "sha256": "b1a6b0135fa11b94476e90f5b32c4c8fad480bf91cf22d0ded98ce22c5132004",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v3.27.4/cmake-3.27.4.tar.gz",
+                    "sha256": "0a905ca8635ca81aa152e123bdde7e54cbe764fdd9a70d62af44cad8b92967af",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
