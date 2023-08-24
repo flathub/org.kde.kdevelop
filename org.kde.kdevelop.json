@@ -39,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.82.0/source/boost_1_82_0.tar.bz2",
-                    "sha256": "a6e1ab9b0860e6a2881dd7b21fe9f737a095e5f33a3a874afc6a345228597ee6",
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.83.0/source/boost_1_83_0.tar.bz2",
+                    "sha256": "6478edfe2f3305127cffe8caf73ea0176c53769f4bf1585be237eb30798c3b8e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -99,8 +99,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/libkomparediff2-23.04.3.tar.xz",
-                    "sha256": "7bbd6ab9ca47fde4258ee077a110fb5929d546715e41e8ff89212fb7b2f771fe",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/libkomparediff2-23.08.0.tar.xz",
+                    "sha256": "54c8f30382aa85db97525ac11ad73aff59fbc273eb6161959041fda39e84e5e1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -237,8 +237,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/konsole-23.04.3.tar.xz",
-                    "sha256": "e06f400d03967ab6c43090fb52571e613981439f5006f45bf87a8d3762f0c8cc",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/konsole-23.08.0.tar.xz",
+                    "sha256": "31d26bd9454dcb93eb81222e83e91f1027164d578e9379bf81515d59f473fa9c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -278,8 +278,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kdevelop-23.04.3.tar.xz",
-                    "sha256": "9b38cfba8c3040b125571c1d77d53b45cd6f663b7c4650105aa4f1d3a12d3854",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/kdevelop-23.08.0.tar.xz",
+                    "sha256": "307c99359ba435a530ec7ff86d9e80aaff5650c6c0b8ea126d392b46147aee6a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -298,8 +298,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kdev-python-23.04.3.tar.xz",
-                    "sha256": "d1fb8bcb81bb0da3b261d39c8a9cb0cfac237409c9c603b9ffee15408e5a39c4",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/kdev-python-23.08.0.tar.xz",
+                    "sha256": "bd5a1f804336ca61d8e62e316ac1089af4d0b7e81aa92662b426ac8996e01fe8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -318,8 +318,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kdev-php-23.04.3.tar.xz",
-                    "sha256": "37e839fa90643d4bcefda97d2cf6f9c38e6f802f062bebdd39de31e863712ddb",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/kdev-php-23.08.0.tar.xz",
+                    "sha256": "6f7a737c6feabed8970375cd9264c503c17ee648c3f9ca10b071d8beee679d37",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -335,8 +335,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v3.27.1/cmake-3.27.1.tar.gz",
-                    "sha256": "b1a6b0135fa11b94476e90f5b32c4c8fad480bf91cf22d0ded98ce22c5132004",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v3.27.4/cmake-3.27.4.tar.gz",
+                    "sha256": "0a905ca8635ca81aa152e123bdde7e54cbe764fdd9a70d62af44cad8b92967af",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
