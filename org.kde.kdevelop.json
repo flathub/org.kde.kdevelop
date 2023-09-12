@@ -139,8 +139,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.109/krunner-5.109.0.tar.xz",
-                    "sha256": "5c0ca1c745644a16590f3299384f40b04bd73f4842a63f228e166afab246f35f",
+                    "url": "https://download.kde.org/stable/frameworks/5.110/krunner-5.110.0.tar.xz",
+                    "sha256": "a18c18e252f8a36bb866b0df8846d55d670336fd11f6d97291d872cd04867260",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -155,8 +155,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/thom311/libnl/releases/download/libnl3_7_0/libnl-3.7.0.tar.gz",
-                    "sha256": "9fe43ccbeeea72c653bdcf8c93332583135cda46a79507bfd0a483bb57f65939",
+                    "url": "https://github.com/thom311/libnl/releases/download/libnl3_8_0/libnl-3.8.0.tar.gz",
+                    "sha256": "bb726c6d7a08b121978d73ff98425bf313fa26a27a331d465e4f1d7ec5b838c6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1684,
