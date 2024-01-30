@@ -1,0 +1,38 @@
+From ed965c4087c861dbd32a4397d2df77a11f6efb39 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Timoth=C3=A9e=20Ravier?= <tim@siosm.fr>
+Date: Tue, 30 Jan 2024 11:59:06 +0100
+Subject: [PATCH 1/2] org.kde.kdevelop.appdata: Add developer_name
+
+Fixes the following lint errors for Flathub:
+```
+{
+    "errors": [
+        "appstream-missing-developer-name"
+    ]
+}
+```
+
+See:
+- https://github.com/flathub/org.kde.kdevelop/pull/171
+- https://github.com/flathub-infra/flatpak-builder-lint/issues/274
+- https://freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-developer
+- https://freedesktop.org/software/appstream/docs/chap-Metadata.html#tag-developer_name
+---
+ org.kde.kdevelop.appdata.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/org.kde.kdevelop.appdata.xml b/org.kde.kdevelop.appdata.xml
+index e9eef55a9f..08e30e45ba 100644
+--- a/org.kde.kdevelop.appdata.xml
++++ b/org.kde.kdevelop.appdata.xml
+@@ -3,6 +3,7 @@
+   <id>org.kde.kdevelop.desktop</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-2.0-or-later</project_license>
++  <developer_name translate="no">KDE</developer_name>
+   <name>KDevelop</name>
+   <name xml:lang="ar">مطوّرك</name>
+   <name xml:lang="bs">KDevelop</name>
+-- 
+2.43.0
+
