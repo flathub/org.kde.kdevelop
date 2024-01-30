@@ -273,6 +273,9 @@
             "post-install": [
                 "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
             ],
+            "cleanup": [
+                "/share/icons/hicolor/1024x1024"
+            ],
             "sources": [
                 {
                     "type": "archive",
