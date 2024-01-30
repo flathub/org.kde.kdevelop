@@ -24,8 +24,8 @@
         "--share=ipc",
         "--share=network",
         "--socket=cups",
+        "--socket=fallback-x11",
         "--socket=wayland",
-        "--socket=x11",
         "--talk-name=org.freedesktop.Flatpak"
     ],
     "modules": [
