@@ -8,6 +8,7 @@
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.llvm16"
     ],
+    "rename-icon": "kdevelop",
     "add-extensions": {
         "org.freedesktop.Sdk.Extension.llvm16": {
             "no-autodownload": "false",
@@ -269,6 +270,9 @@
                 "prepend-path": "/usr/lib/sdk/llvm16/bin",
                 "prepend-ld-library-path": "/usr/lib/sdk/llvm16/lib"
             },
+            "post-install": [
+                "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
+            ],
             "sources": [
                 {
                     "type": "archive",
