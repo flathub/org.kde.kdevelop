@@ -55,7 +55,8 @@
             "name": "grantlee",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_TESTS=OFF"
+                "-DBUILD_TESTS=OFF",
+                "-DGRANTLEE_BUILD_WITH_QT6=ON"
             ],
             "sources": [
                 {
@@ -75,7 +76,8 @@
             "name": "qca",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_TESTS=OFF"
+                "-DBUILD_TESTS=OFF",
+                "-DBUILD_WITH_QT6=ON"
             ],
             "sources": [
                 {
@@ -95,7 +97,8 @@
             "name": "libkomparediff2",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_TESTING=OFF"
+                "-DBUILD_TESTING=OFF",
+                "-DQT_MAJOR_VERSION=6"
             ],
             "sources": [
                 {
