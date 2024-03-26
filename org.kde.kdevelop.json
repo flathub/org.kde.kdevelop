@@ -232,8 +232,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/konsole-23.08.5.tar.xz",
-                    "sha256": "c6fb20753ac27a46bce62e31f7b105b6b99497035830b34a7bba1bc60260c1ca",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/konsole-24.02.1.tar.xz",
+                    "sha256": "c5a277db84a2f61751250b89c7f984dfdb7750d9ed5f68a4fae228d89ae72c85",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -279,8 +279,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kdevelop-23.08.5.tar.xz",
-                    "sha256": "d634f287f72c6e1097f2de1ea2f8bab41899952adcf879b0fe6daa14fecee1f8",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/kdevelop-24.02.1.tar.xz",
+                    "sha256": "5fcc927a536f4f1e48aefbe63303593e88b1f6657e588b6240e9616b334a9e8f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -307,8 +307,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kdev-python-23.08.5.tar.xz",
-                    "sha256": "7abf49e1bb30875599ab46731294edb3314583c0e17baf6b37472f7f6fde760a",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/kdev-python-24.02.1.tar.xz",
+                    "sha256": "662b0a7e6d6afcb1a20d036a7b643b817744a96e50cfd6db2eaf16c55e205219",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -344,8 +344,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v3.28.3/cmake-3.28.3.tar.gz",
-                    "sha256": "72b7570e5c8593de6ac4ab433b73eab18c5fb328880460c86ce32608141ad5c1",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v3.29.0/cmake-3.29.0.tar.gz",
+                    "sha256": "a0669630aae7baa4a8228048bf30b622f9e9fd8ee8cedb941754e9e38686c778",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
