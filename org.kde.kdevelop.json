@@ -344,8 +344,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v3.28.3/cmake-3.28.3.tar.gz",
-                    "sha256": "72b7570e5c8593de6ac4ab433b73eab18c5fb328880460c86ce32608141ad5c1",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v3.29.0/cmake-3.29.0.tar.gz",
+                    "sha256": "a0669630aae7baa4a8228048bf30b622f9e9fd8ee8cedb941754e9e38686c778",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
