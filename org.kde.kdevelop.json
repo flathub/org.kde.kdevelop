@@ -6,11 +6,11 @@
     "base-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.llvm16"
+        "org.freedesktop.Sdk.Extension.llvm17"
     ],
     "rename-icon": "kdevelop",
     "add-extensions": {
-        "org.freedesktop.Sdk.Extension.llvm16": {
+        "org.freedesktop.Sdk.Extension.llvm17": {
             "no-autodownload": "false",
             "version": "23.08"
         }
@@ -19,7 +19,7 @@
     "finish-args": [
         "--allow=devel",
         "--device=dri",
-        "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm16/bin",
+        "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm17/bin",
         "--filesystem=host",
         "--own-name=org.kdevelop.*",
         "--share=ipc",
@@ -267,8 +267,8 @@
                 "-DBUILD_TESTING=OFF"
             ],
             "build-options": {
-                "prepend-path": "/usr/lib/sdk/llvm16/bin",
-                "prepend-ld-library-path": "/usr/lib/sdk/llvm16/lib"
+                "prepend-path": "/usr/lib/sdk/llvm17/bin",
+                "prepend-ld-library-path": "/usr/lib/sdk/llvm17/lib"
             },
             "post-install": [
                 "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
