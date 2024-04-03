@@ -232,8 +232,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/konsole-23.08.5.tar.xz",
-                    "sha256": "c6fb20753ac27a46bce62e31f7b105b6b99497035830b34a7bba1bc60260c1ca",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/konsole-24.02.1.tar.xz",
+                    "sha256": "c5a277db84a2f61751250b89c7f984dfdb7750d9ed5f68a4fae228d89ae72c85",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -344,8 +344,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v3.29.0/cmake-3.29.0.tar.gz",
-                    "sha256": "a0669630aae7baa4a8228048bf30b622f9e9fd8ee8cedb941754e9e38686c778",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v3.29.1/cmake-3.29.1.tar.gz",
+                    "sha256": "7fb02e8f57b62b39aa6b4cf71e820148ba1a23724888494735021e32ab0eefcc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
