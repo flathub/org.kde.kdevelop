@@ -290,14 +290,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kdevelop-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-org.kde.kdevelop.appdata-Add-developer_name.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "0002-org.kde.kdevelop.appdata-Add-screenshot-caption.patch"
                 }
             ]
         },
