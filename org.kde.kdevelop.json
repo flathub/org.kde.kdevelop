@@ -80,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/qca/2.3.8/qca-2.3.8.tar.xz",
-                    "sha256": "48759ca86a0202461d908ba66134380cc3bb7d20fed3c031b9fc0289796a8264",
+                    "url": "https://download.kde.org/stable/qca/2.3.9/qca-2.3.9.tar.xz",
+                    "sha256": "c555d5298cdd7b6bafe2b1f96106f30cfa543a23d459d50c8a91eac33c476e4e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 13606,
