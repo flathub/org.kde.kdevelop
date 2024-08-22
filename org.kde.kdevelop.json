@@ -1,9 +1,9 @@
 {
     "id": "org.kde.kdevelop",
     "runtime": "org.kde.Sdk",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.7",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "5.15-23.08",
+    "base-version": "6.7",
     "sdk": "org.kde.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.llvm17"
@@ -40,53 +40,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.85.0/source/boost_1_85_0.tar.bz2",
-                    "sha256": "7009fe1faa1697476bdc7027703a2badb84e849b7b0baad5086b087b971f8617",
+                    "url": "https://boostorg.jfrog.io/artifactory/main/release/1.86.0/source/boost_1_86_0.tar.bz2",
+                    "sha256": "1bed88e40401b2cb7a1f76d4bab499e352fa4d0c5f31c0dbae64e24d34d7513b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
                         "stable-only": true,
                         "url-template": "https://boostorg.jfrog.io/artifactory/main/release/$version/source/boost_${major}_${minor}_$patch.tar.bz2"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "grantlee",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_TESTS=OFF"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/steveire/grantlee/archive/v5.3.1.tar.gz",
-                    "sha256": "ba288ae9ed37ec0c3622ceb40ae1f7e1e6b2ea89216ad8587f0863d64be24f06",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 21448,
-                        "stable-only": true,
-                        "url-template": "https://github.com/steveire/grantlee/archive/v$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "qca",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_TESTS=OFF"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/qca/2.3.9/qca-2.3.9.tar.xz",
-                    "sha256": "c555d5298cdd7b6bafe2b1f96106f30cfa543a23d459d50c8a91eac33c476e4e",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 13606,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/qca/$version/qca-$version.tar.xz"
                     }
                 }
             ]
@@ -100,33 +60,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.05.2/src/libkomparediff2-24.05.2.tar.xz",
-                    "sha256": "1e0e82886f3186ab40debbda475f16d6f1922a4b5546540b9cc226d29a969fbc",
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/libkomparediff2-24.08.0.tar.xz",
+                    "sha256": "a9f57e9f11b34dd9dc148fb85c2fc904f6c8a87dd92e676c387d5b850cd0cc66",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkomparediff2-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "okteta",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/okteta/0.26.15/src/okteta-0.26.15.tar.xz",
-                    "sha256": "0533500ef7068c1246e218f537af726e836d878ff275e392ed3d8a8aa6cf7c63",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 229042,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/okteta/$version/src/okteta-$version.tar.xz"
                     }
                 }
             ]
@@ -140,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.115/krunner-5.115.0.tar.xz",
-                    "sha256": "15e239bfeedaec305a2d8707db7d4f8982c2c181eb0c116ce51205d187c6fa29",
+                    "url": "https://download.kde.org/stable/frameworks/6.5/krunner-6.5.0.tar.xz",
+                    "sha256": "5674afef23fe6747aaa8b06c405a53a4e40f77ba24535d2080d512602b036030",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -156,8 +96,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/thom311/libnl/releases/download/libnl3_9_0/libnl-3.9.0.tar.gz",
-                    "sha256": "aed507004d728a5cf11eab48ca4bf9e6e1874444e33939b9d3dfed25018ee9bb",
+                    "url": "https://github.com/thom311/libnl/releases/download/libnl3_10_0/libnl-3.10.0.tar.gz",
+                    "sha256": "49b3e2235fdb58f5910bbb3ed0de8143b71ffc220571540502eb6c2471f204f5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1684,
@@ -221,8 +161,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/5.27.7/libksysguard-5.27.7.tar.xz",
-                    "sha256": "682a939252e35a52b7f95a6f5bfcc7cb983fa3b5275ae3b377ab8040b292cb18"
+                    "url": "https://download.kde.org/stable/plasma/6.1.4/libksysguard-6.1.4.tar.xz",
+                    "sha256": "d2a7aebc9571ce81b4ca79095b74a0d91829c249303d22462038203a4c56c5b1",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8761,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/plasma/$version/libksysguard-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -232,16 +178,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/konsole-23.08.5.tar.xz",
-                    "sha256": "c6fb20753ac27a46bce62e31f7b105b6b99497035830b34a7bba1bc60260c1ca",
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/konsole-24.08.0.tar.xz",
+                    "sha256": "0095f1afc4e4a4cd36a12a2927e090e62fb0d016d38914bc858af568b7416101",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/konsole-$version.tar.xz",
-                        "versions": {
-                            "<": "24.02.0"
-                        }
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/konsole-$version.tar.xz"
                     }
                 }
             ]
@@ -252,13 +195,33 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdevelop-pg-qt/2.2.2/src/kdevelop-pg-qt-2.2.2.tar.xz",
-                    "sha256": "3d56604c479f8f04ae32a523ee91f3078c717117d0deb39e973e22494cbb65f1",
+                    "url": "https://download.kde.org/stable/kdevelop-pg-qt/2.3.0/src/kdevelop-pg-qt-2.3.0.tar.xz",
+                    "sha256": "3d3ef3cb395e9670e60c399ea6d865cc796e00e52c355eed943fbeca7da7120d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17733,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/kdevelop-pg-qt/$version/src/kdevelop-pg-qt-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ktexttemplate",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/frameworks/6.5/ktexttemplate-6.5.0.tar.xz",
+                    "sha256": "295a3f87ff08af17f83496fd66b3f634917bcac6466c79be1f4cb6786ecb04c6",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8762,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/ktexttemplate-$version.tar.xz"
                     }
                 }
             ]
@@ -282,8 +245,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.05.2/src/kdevelop-24.05.2.tar.xz",
-                    "sha256": "00f2288db0770aaa23c9fdc0277cca96d1f6a8bb248db4594a618d47621ee583",
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kdevelop-24.08.0.tar.xz",
+                    "sha256": "c5201d814b8245ca6aac9175f2cf504d7bef7f85f18679e6fca76dfd0ff8591a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -302,8 +265,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.05.2/src/kdev-python-24.05.2.tar.xz",
-                    "sha256": "6c6a0cd1ae719bb90ddb0d8d952fc68122048dae30d1a3094049e457e563b13f",
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kdev-python-24.08.0.tar.xz",
+                    "sha256": "203f2267f9f24c57ec41549968389548177118231c7d2da8cb3f0722a09d5cee",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -322,8 +285,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.05.2/src/kdev-php-24.05.2.tar.xz",
-                    "sha256": "74f3c4aa72444a68d1dd4c21e248d244f1256c6c28867306e767b501037afb68",
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kdev-php-24.08.0.tar.xz",
+                    "sha256": "3ac3aee8b14e726224551d524b1b4b698e30d4e58f51f2187d43377a632d1fcd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -339,8 +302,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v3.30.0/cmake-3.30.0.tar.gz",
-                    "sha256": "157e5be6055c154c34f580795fe5832f260246506d32954a971300ed7899f579",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v3.30.2/cmake-3.30.2.tar.gz",
+                    "sha256": "46074c781eccebc433e98f0bbfa265ca3fd4381f245ca3b140e7711531d60db2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
