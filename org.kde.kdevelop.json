@@ -80,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.5/krunner-6.5.0.tar.xz",
-                    "sha256": "5674afef23fe6747aaa8b06c405a53a4e40f77ba24535d2080d512602b036030",
+                    "url": "https://download.kde.org/stable/frameworks/6.6/krunner-6.6.0.tar.xz",
+                    "sha256": "17d4201be7ce712071d29e9528feafdc2be20391834a110c3584cc142c9f4b11",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -215,8 +215,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.5/ktexttemplate-6.5.0.tar.xz",
-                    "sha256": "295a3f87ff08af17f83496fd66b3f634917bcac6466c79be1f4cb6786ecb04c6",
+                    "url": "https://download.kde.org/stable/frameworks/6.6/ktexttemplate-6.6.0.tar.xz",
+                    "sha256": "23611a7724d9ccb534cba22dc88885748cf2ec9037d3dccad5cc54a3d4bdb954",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
