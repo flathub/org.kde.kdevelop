@@ -80,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.5/krunner-6.5.0.tar.xz",
-                    "sha256": "5674afef23fe6747aaa8b06c405a53a4e40f77ba24535d2080d512602b036030",
+                    "url": "https://download.kde.org/stable/frameworks/6.6/krunner-6.6.0.tar.xz",
+                    "sha256": "17d4201be7ce712071d29e9528feafdc2be20391834a110c3584cc142c9f4b11",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -302,8 +302,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v3.30.3/cmake-3.30.3.tar.gz",
-                    "sha256": "6d5de15b6715091df7f5441007425264bdd477809f80333fdf95f846aaff88e4",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v3.30.4/cmake-3.30.4.tar.gz",
+                    "sha256": "c759c97274f1e7aaaafcb1f0d261f9de9bf3a5d6ecb7e2df616324a46fe704b2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
