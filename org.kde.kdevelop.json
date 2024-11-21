@@ -215,8 +215,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.7/ktexttemplate-6.7.0.tar.xz",
-                    "sha256": "d6b75f193f4d8d817cf374872a57427489c61736121c72a69c4dd7ee62e1e233",
+                    "url": "https://download.kde.org/stable/frameworks/6.8/ktexttemplate-6.8.0.tar.xz",
+                    "sha256": "3a83dafb4075af0bb015556a64205094fcca2bac5b9fb0dee614eaff252a0412",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
