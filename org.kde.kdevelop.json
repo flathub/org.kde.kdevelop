@@ -1,25 +1,25 @@
 {
     "id": "org.kde.kdevelop",
     "runtime": "org.kde.Sdk",
-    "runtime-version": "6.7",
+    "runtime-version": "6.8",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.7",
+    "base-version": "6.8",
     "sdk": "org.kde.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.llvm17"
+        "org.freedesktop.Sdk.Extension.llvm19"
     ],
     "rename-icon": "kdevelop",
     "add-extensions": {
-        "org.freedesktop.Sdk.Extension.llvm17": {
+        "org.freedesktop.Sdk.Extension.llvm19": {
             "no-autodownload": "false",
-            "version": "23.08"
+            "version": "24.08"
         }
     },
     "command": "kdevelop",
     "finish-args": [
         "--allow=devel",
         "--device=dri",
-        "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm17/bin",
+        "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm19/bin",
         "--filesystem=host",
         "--own-name=org.kdevelop.*",
         "--share=ipc",
@@ -233,8 +233,8 @@
                 "-DBUILD_TESTING=OFF"
             ],
             "build-options": {
-                "prepend-path": "/usr/lib/sdk/llvm17/bin",
-                "prepend-ld-library-path": "/usr/lib/sdk/llvm17/lib"
+                "prepend-path": "/usr/lib/sdk/llvm19/bin",
+                "prepend-ld-library-path": "/usr/lib/sdk/llvm19/lib"
             },
             "post-install": [
                 "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
