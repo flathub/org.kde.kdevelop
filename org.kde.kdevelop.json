@@ -80,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.9/krunner-6.9.0.tar.xz",
-                    "sha256": "eb4a5ee730b8d53641d8b08bdeb8d4bb065b19b6de3fa2ae9250436822f00d8c",
+                    "url": "https://download.kde.org/stable/frameworks/6.10/krunner-6.10.0.tar.xz",
+                    "sha256": "459c97ad510c3565d4547b51c4dbaf19b3834c0afdf77bf6ee4dff346957d62b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -215,8 +215,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.9/ktexttemplate-6.9.0.tar.xz",
-                    "sha256": "4c5f6c71ee1895285a97e1329a60c6a0dc5f8aca4875970f4bdf7442f211c8a9",
+                    "url": "https://download.kde.org/stable/frameworks/6.10/ktexttemplate-6.10.0.tar.xz",
+                    "sha256": "3e39190adb90d4f71672e33d117b35fe84a8f35aaa90a678846401044894aa3d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -302,8 +302,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v3.31.3/cmake-3.31.3.tar.gz",
-                    "sha256": "fac45bc6d410b49b3113ab866074888d6c9e9dc81a141874446eb239ac38cb87",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v3.31.4/cmake-3.31.4.tar.gz",
+                    "sha256": "a6130bfe75f5ba5c73e672e34359f7c0a1931521957e8393a5c2922c8b0f7f25",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
