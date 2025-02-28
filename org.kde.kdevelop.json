@@ -31,6 +31,85 @@
     ],
     "modules": [
         {
+            "name": "apr",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://dlcdn.apache.org/apr/apr-1.7.5.tar.bz2",
+                    "sha256": "cd0f5d52b9ab1704c72160c5ee3ed5d3d4ca2df4a7f8ab564e3cb352b67232f2",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 95,
+                        "stable-only": true,
+                        "url-template": "https://dlcdn.apache.org/apr/apr-$version.tar.bz2"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "apr-util",
+            "config-opts": [
+                "--with-apr=/app"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://dlcdn.apache.org//apr/apr-util-1.6.3.tar.bz2",
+                    "sha256": "a41076e3710746326c3945042994ad9a4fcac0ce0277dd8fea076fec3c9772b5",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 96,
+                        "stable-only": true,
+                        "url-template": "https://dlcdn.apache.org//apr/apr-util-$version.tar.bz2"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "utf8proc",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_SHARED_LIBS=ON",
+                "-DUTF8PROC_INSTALL=ON",
+                "-DUTF8PROC_ENABLE_TESTING=OFF"
+            ],
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/JuliaStrings/utf8proc.git",
+                    "tag": "v2.10.0",
+                    "commit": "a1b99daa2a3393884220264c927a48ba1251a9c6",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "subversion",
+            "config-opts": [
+                "--with-lz4=internal"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://downloads.apache.org/subversion/subversion-1.14.5.tar.bz2",
+                    "sha256": "e78a29e7766b8b7b354497d08f71a55641abc53675ce1875584781aae35644a1",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 4905,
+                        "stable-only": true,
+                        "url-template": "https://downloads.apache.org/subversion/subversion-1.14.5.tar.bz2"
+                    }
+                }
+            ],
+            "post-install": [
+                "cp -v /app/share/pkgconfig/*.pc /app/lib/pkgconfig"
+            ]
+        },
+        {
             "name": "boost",
             "buildsystem": "simple",
             "build-commands": [
