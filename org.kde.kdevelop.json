@@ -31,6 +31,27 @@
     ],
     "modules": [
         {
+            "name": "heaptrack",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DLIBUNWIND_INCLUDE_DIR=/app/include",
+                "-DBUILD_TESTING=OFF"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/heaptrack/1.5.0/heaptrack-1.5.0.tar.xz",
+                    "sha256": "a278d9d8f91e8bfb8a1c2f5b73eecab47fd45d0693f5dbea637536413cec2ea5",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 17265,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/heaptrack/$version/heaptrack-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "cppcheck",
             "buildsystem": "cmake-ninja",
             "sources": [
