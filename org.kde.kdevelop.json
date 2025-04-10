@@ -136,8 +136,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.87.0/source/boost_1_87_0.tar.bz2",
-                    "sha256": "af57be25cb4c4f4b413ed692fe378affb4352ea50fbe294a11ef548f4d527d89",
+                    "url": "https://archives.boost.io/release/1.88.0/source/boost_1_88_0.tar.bz2",
+                    "sha256": "46d9d2c06637b219270877c9e16155cbd015b6dc84349af064c088e9b5b12f7b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -398,8 +398,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v4.0.0/cmake-4.0.0.tar.gz",
-                    "sha256": "ddc54ad63b87e153cf50be450a6580f1b17b4881de8941da963ff56991a4083b",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v4.0.1/cmake-4.0.1.tar.gz",
+                    "sha256": "d630a7e00e63e520b25259f83d425ef783b4661bdc8f47e21c7f23f3780a21e1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
