@@ -176,8 +176,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/krunner-6.13.0.tar.xz",
-                    "sha256": "5de1775a6e5daf3b72810f9b8aafdee965d14bf670864aeade4478e50f04f53b",
+                    "url": "https://download.kde.org/stable/frameworks/6.15/krunner-6.15.0.tar.xz",
+                    "sha256": "8cae27106d33542279a5cec62bcc0ecafec8b540f538338f74a27fa0d092f9f3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -257,8 +257,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.3.5/libksysguard-6.3.5.tar.xz",
-                    "sha256": "36c01f8c8218c175062e8a0db2c07ca39abeac34fc62d7e6b48194f053bc3523",
+                    "url": "https://download.kde.org/stable/plasma/6.4.1/libksysguard-6.4.1.tar.xz",
+                    "sha256": "7c33949dbdccceece35fbefd244a4449b23b5071e0cad082f91aee64f7b281e1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -311,8 +311,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/ktexttemplate-6.13.0.tar.xz",
-                    "sha256": "4050ce76de38acb8104d8c0b6e7ecb38bf28ff4d65499ec911fb316f383f92d9",
+                    "url": "https://download.kde.org/stable/frameworks/6.15/ktexttemplate-6.15.0.tar.xz",
+                    "sha256": "5c652ebae5d32d1b84fa438ad94cc621621d31e0abcfef3b0a511a586d697a84",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -398,8 +398,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v4.0.2/cmake-4.0.2.tar.gz",
-                    "sha256": "1c3a82c8ca7cf12e0b17178f9d0c32f7ac773bd5651a98fcfd80fbf4977f8d48",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v4.0.3/cmake-4.0.3.tar.gz",
+                    "sha256": "8d3537b7b7732660ea247398f166be892fe6131d63cc291944b45b91279f3ffb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
