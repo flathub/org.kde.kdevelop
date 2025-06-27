@@ -257,8 +257,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.3.5/libksysguard-6.3.5.tar.xz",
-                    "sha256": "36c01f8c8218c175062e8a0db2c07ca39abeac34fc62d7e6b48194f053bc3523",
+                    "url": "https://download.kde.org/stable/plasma/6.4.1/libksysguard-6.4.1.tar.xz",
+                    "sha256": "7c33949dbdccceece35fbefd244a4449b23b5071e0cad082f91aee64f7b281e1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -311,8 +311,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/ktexttemplate-6.13.0.tar.xz",
-                    "sha256": "4050ce76de38acb8104d8c0b6e7ecb38bf28ff4d65499ec911fb316f383f92d9",
+                    "url": "https://download.kde.org/stable/frameworks/6.15/ktexttemplate-6.15.0.tar.xz",
+                    "sha256": "5c652ebae5d32d1b84fa438ad94cc621621d31e0abcfef3b0a511a586d697a84",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
