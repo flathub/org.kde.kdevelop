@@ -1,16 +1,16 @@
 {
     "id": "org.kde.kdevelop",
     "runtime": "org.kde.Sdk",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "6.8",
+    "base-version": "6.9",
     "sdk": "org.kde.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.llvm19"
+        "org.freedesktop.Sdk.Extension.llvm20"
     ],
     "rename-icon": "kdevelop",
     "add-extensions": {
-        "org.freedesktop.Sdk.Extension.llvm19": {
+        "org.freedesktop.Sdk.Extension.llvm20": {
             "no-autodownload": "false",
             "version": "24.08"
         }
@@ -19,7 +19,7 @@
     "finish-args": [
         "--allow=devel",
         "--device=dri",
-        "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm19/bin",
+        "--env=PATH=/app/bin:/usr/bin:/usr/lib/sdk/llvm20/bin",
         "--filesystem=host",
         "--own-name=org.kdevelop.*",
         "--share=ipc",
@@ -36,13 +36,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://sourceforge.net/projects/cppcheck/files/cppcheck/2.17/cppcheck-2.17.0.tar.gz",
-                    "sha256": "5a639adf8d5f2520a280eb0f0fc25605cd8a3d4336a27f4a3e3e0f0c0c9789da",
+                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.17.1.tar.gz",
+                    "sha256": "bfd681868248ec03855ca7c2aea7bcb1f39b8b18860d76aec805a92a967b966c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 357,
                         "stable-only": true,
-                        "url-template": "https://sourceforge.net/projects/cppcheck/files/cppcheck/$major.$minor/cppcheck-$version.tar.gz"
+                        "url-template": "https://github.com/danmar/cppcheck/archive/refs/tags/$version.tar.gz"
                     }
                 }
             ]
@@ -329,8 +329,8 @@
                 "-DBUILD_TESTING=OFF"
             ],
             "build-options": {
-                "prepend-path": "/usr/lib/sdk/llvm19/bin",
-                "prepend-ld-library-path": "/usr/lib/sdk/llvm19/lib"
+                "prepend-path": "/usr/lib/sdk/llvm20/bin",
+                "prepend-ld-library-path": "/usr/lib/sdk/llvm20/lib"
             },
             "post-install": [
                 "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
