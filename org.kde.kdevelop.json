@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.17.1.tar.gz",
-                    "sha256": "bfd681868248ec03855ca7c2aea7bcb1f39b8b18860d76aec805a92a967b966c",
+                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.18.0.tar.gz",
+                    "sha256": "dc74e300ac59f2ef9f9c05c21d48ae4c8dd1ce17f08914dd30c738ff482e748f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 357,
@@ -176,8 +176,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/krunner-6.13.0.tar.xz",
-                    "sha256": "5de1775a6e5daf3b72810f9b8aafdee965d14bf670864aeade4478e50f04f53b",
+                    "url": "https://download.kde.org/stable/frameworks/6.16/krunner-6.16.0.tar.xz",
+                    "sha256": "f311741131552d14875880707d70402028bfb000d0d96f8073464311fcab5dbc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -257,8 +257,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.3.5/libksysguard-6.3.5.tar.xz",
-                    "sha256": "36c01f8c8218c175062e8a0db2c07ca39abeac34fc62d7e6b48194f053bc3523",
+                    "url": "https://download.kde.org/stable/plasma/6.4.3/libksysguard-6.4.3.tar.xz",
+                    "sha256": "57a353315fd20b0e466ee399d8ec6af9e7b574328311fa8717731267beb732e2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
