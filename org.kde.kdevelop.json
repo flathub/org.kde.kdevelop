@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.17.1.tar.gz",
-                    "sha256": "bfd681868248ec03855ca7c2aea7bcb1f39b8b18860d76aec805a92a967b966c",
+                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.18.0.tar.gz",
+                    "sha256": "dc74e300ac59f2ef9f9c05c21d48ae4c8dd1ce17f08914dd30c738ff482e748f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 357,
@@ -176,8 +176,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/krunner-6.13.0.tar.xz",
-                    "sha256": "5de1775a6e5daf3b72810f9b8aafdee965d14bf670864aeade4478e50f04f53b",
+                    "url": "https://download.kde.org/stable/frameworks/6.16/krunner-6.16.0.tar.xz",
+                    "sha256": "f311741131552d14875880707d70402028bfb000d0d96f8073464311fcab5dbc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -257,8 +257,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.3.5/libksysguard-6.3.5.tar.xz",
-                    "sha256": "36c01f8c8218c175062e8a0db2c07ca39abeac34fc62d7e6b48194f053bc3523",
+                    "url": "https://download.kde.org/stable/plasma/6.4.4/libksysguard-6.4.4.tar.xz",
+                    "sha256": "f12fd2e11d2d504d57556cb520a442ed9660f59c7d4b1fbbb17bee02eba0fb2f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -311,8 +311,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/ktexttemplate-6.13.0.tar.xz",
-                    "sha256": "4050ce76de38acb8104d8c0b6e7ecb38bf28ff4d65499ec911fb316f383f92d9",
+                    "url": "https://download.kde.org/stable/frameworks/6.16/ktexttemplate-6.16.0.tar.xz",
+                    "sha256": "1880cf1a890031dc6172513d3dfe78f38d5726184978220ca7142a3a6e40f9b5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -398,8 +398,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v4.0.3/cmake-4.0.3.tar.gz",
-                    "sha256": "8d3537b7b7732660ea247398f166be892fe6131d63cc291944b45b91279f3ffb",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v4.1.0/cmake-4.1.0.tar.gz",
+                    "sha256": "81ee8170028865581a8e10eaf055afb620fa4baa0beb6387241241a975033508",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
