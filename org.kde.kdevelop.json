@@ -11,7 +11,7 @@
     "rename-icon": "kdevelop",
     "add-extensions": {
         "org.freedesktop.Sdk.Extension.llvm20": {
-            "no-autodownload": "false",
+            "no-autodownload": false,
             "version": "24.08"
         }
     },
@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.17.1.tar.gz",
-                    "sha256": "bfd681868248ec03855ca7c2aea7bcb1f39b8b18860d76aec805a92a967b966c",
+                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.18.1.tar.gz",
+                    "sha256": "528841c0f00de5ed41428269df7a30b102af0b1f8ad50f5b7d4ee2997b54c04c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 357,
@@ -136,8 +136,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.88.0/source/boost_1_88_0.tar.bz2",
-                    "sha256": "46d9d2c06637b219270877c9e16155cbd015b6dc84349af064c088e9b5b12f7b",
+                    "url": "https://archives.boost.io/release/1.89.0/source/boost_1_89_0.tar.bz2",
+                    "sha256": "85a33fa22621b4f314f8e85e1a5e2a9363d22e4f4992925d4bb3bc631b5a0c7a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -156,8 +156,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/libkomparediff2-25.04.3.tar.xz",
-                    "sha256": "ab1779f34edaa51375c6a48c916723f332d87a9d23218ec6c0446c6112aa564c",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/libkomparediff2-25.08.0.tar.xz",
+                    "sha256": "5c787cdf33b60f6da4f2954238349826607c0073f4f9b30a6ace65800c9a25c0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -274,8 +274,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/konsole-25.04.3.tar.xz",
-                    "sha256": "2f6833e22a71f4191e7ee45f3dce37e22a3be36d0fa592fdfffce207acac3939",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/konsole-25.08.0.tar.xz",
+                    "sha256": "c880bd2c829437a142abaf4f97ebc384c9f2c19f31cc23918c49100727927450",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -341,8 +341,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/kdevelop-25.04.3.tar.xz",
-                    "sha256": "72bb08d913c4932eae52781c5a619d8aa04c4c77d0f3162a60ec2e8d027afeae",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kdevelop-25.08.0.tar.xz",
+                    "sha256": "8682c13bad865433cf93574275f3da8fe6ff7080ee6178541c5c46cb4560a0ad",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -361,8 +361,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/kdev-python-25.04.3.tar.xz",
-                    "sha256": "46c656bc6e069ab8fb29d3c289dbbbe91531f94b8b6b820b35018a337eb03c09",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kdev-python-25.08.0.tar.xz",
+                    "sha256": "c8af23528dcbfb737d38bf54fabcb3edeba4498d56e638ec22d1fa855628b1fc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -381,8 +381,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/kdev-php-25.04.3.tar.xz",
-                    "sha256": "7bcaf875b86270f6bdb429ec46be8a01ed067824d4e92368a2d1b19a683880e3",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kdev-php-25.08.0.tar.xz",
+                    "sha256": "25d0420fc41db12acb52c01b62cbee12a4aae2a72bcf8f6ddfbcdf668878c7cf",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -398,8 +398,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v4.0.3/cmake-4.0.3.tar.gz",
-                    "sha256": "8d3537b7b7732660ea247398f166be892fe6131d63cc291944b45b91279f3ffb",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v4.1.0/cmake-4.1.0.tar.gz",
+                    "sha256": "81ee8170028865581a8e10eaf055afb620fa4baa0beb6387241241a975033508",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
