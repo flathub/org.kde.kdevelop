@@ -11,7 +11,7 @@
     "rename-icon": "kdevelop",
     "add-extensions": {
         "org.freedesktop.Sdk.Extension.llvm20": {
-            "no-autodownload": "false",
+            "no-autodownload": false,
             "version": "24.08"
         }
     },
