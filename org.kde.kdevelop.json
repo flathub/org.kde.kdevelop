@@ -104,7 +104,7 @@
                 }
             ]
         },
-        "shared-modules/libusb/libusb.json"
+        "shared-modules/libsecret/libsecret.json",
         {
             "name": "subversion",
             "config-opts": [
