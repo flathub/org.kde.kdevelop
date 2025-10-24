@@ -176,8 +176,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.18/krunner-6.18.0.tar.xz",
-                    "sha256": "69a20b4e554d8763ef4a52978e46056b598efb8ec584ac7be5bf06ca318db51c",
+                    "url": "https://download.kde.org/stable/frameworks/6.19/krunner-6.19.0.tar.xz",
+                    "sha256": "d59ca1a7142529bdca28f539dc7b3784f975be68b36c69d0c3e6835966ec32ab",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -257,8 +257,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.4.5/libksysguard-6.4.5.tar.xz",
-                    "sha256": "c7cf8cd2f0a1e519201dc62889f1135967a850f932c252fd26ea3d88c6564a0f",
+                    "url": "https://download.kde.org/stable/plasma/6.5.0/libksysguard-6.5.0.tar.xz",
+                    "sha256": "2f1c93246cdb0578651b708d00fe2b6c0c6411f4a1f2c8464e5aeac816971c85",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -311,8 +311,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.18/ktexttemplate-6.18.0.tar.xz",
-                    "sha256": "cbb6505c35a8edc0e6fefb7d24fde8275eefdc9735407297ace02a7c40f37e06",
+                    "url": "https://download.kde.org/stable/frameworks/6.19/ktexttemplate-6.19.0.tar.xz",
+                    "sha256": "4087353ac20e376a3dce2ef49bc62f8856eb3b7933707faf62bb31b179c11c83",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
