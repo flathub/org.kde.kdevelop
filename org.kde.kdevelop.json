@@ -95,8 +95,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/JuliaStrings/utf8proc.git",
-                    "tag": "v2.11.0",
-                    "commit": "d7bf128df773c2a1a7242eb80e51e91a769fc985",
+                    "tag": "v2.11.2",
+                    "commit": "90daf9f396cfec91668758eb9cc54bd5248a6b89",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -156,8 +156,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/libkomparediff2-25.08.2.tar.xz",
-                    "sha256": "4d533e7d74be2b6127bd906fa4d7dfe1e8eb459e908677e6412e8bd0b4a1c1a7",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/libkomparediff2-25.08.3.tar.xz",
+                    "sha256": "6e936f8661f336cb9acff79e246e1dfb284f9cd566a01c65ab5a2589e736c9ec",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -176,8 +176,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.19/krunner-6.19.0.tar.xz",
-                    "sha256": "d59ca1a7142529bdca28f539dc7b3784f975be68b36c69d0c3e6835966ec32ab",
+                    "url": "https://download.kde.org/stable/frameworks/6.20/krunner-6.20.0.tar.xz",
+                    "sha256": "735b2cf153ed1bd223389f29b4b619319fbb310071dac6c7e9fadda1195d3a1c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -192,8 +192,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/thom311/libnl/releases/download/libnl3_11_0/libnl-3.11.0.tar.gz",
-                    "sha256": "2a56e1edefa3e68a7c00879496736fdbf62fc94ed3232c0baba127ecfa76874d",
+                    "url": "https://github.com/thom311/libnl/releases/download/libnl3_12_0/libnl-3.12.0.tar.gz",
+                    "sha256": "fc51ca7196f1a3f5fdf6ffd3864b50f4f9c02333be28be4eeca057e103c0dd18",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1684,
@@ -257,8 +257,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.5.1/libksysguard-6.5.1.tar.xz",
-                    "sha256": "c4ee1fa34a92d532140141398416d5f725267c8aeeb60fbb9969896cccc81c2f",
+                    "url": "https://download.kde.org/stable/plasma/6.5.3/libksysguard-6.5.3.tar.xz",
+                    "sha256": "eb8d01fbcf6410a9d5ae78c538392524e20bbf4dc0a9619a3732a4731d5e7187",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -274,8 +274,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/konsole-25.08.2.tar.xz",
-                    "sha256": "220fb44a02e5dd3110bc7d8a04f4d7c910bc99b5b1877a36befd06d1e65fe377",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/konsole-25.08.3.tar.xz",
+                    "sha256": "095a7ff10df3c70779b356fb3b5984062bbc698bbed966230e3dbccf6af36615",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -311,8 +311,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.19/ktexttemplate-6.19.0.tar.xz",
-                    "sha256": "4087353ac20e376a3dce2ef49bc62f8856eb3b7933707faf62bb31b179c11c83",
+                    "url": "https://download.kde.org/stable/frameworks/6.20/ktexttemplate-6.20.0.tar.xz",
+                    "sha256": "1515959105fced74683c91aa1bbf89338279614c1ed7b17abe954e01144f4c19",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -341,8 +341,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/kdevelop-25.08.2.tar.xz",
-                    "sha256": "b87923d6d37de5388f36c2e9ae66e1b096b9f425bf9fa0fbf96368f6af465b29",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/kdevelop-25.08.3.tar.xz",
+                    "sha256": "4d2b92cf37a9a3324dd9137075c5f552047bd88a673420aa1484fcde79bace92",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -361,8 +361,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/kdev-python-25.08.2.tar.xz",
-                    "sha256": "11297d05c417f9e7108ed3a1f205436e759ba9459c3c6f4f947359d6765142c5",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/kdev-python-25.08.3.tar.xz",
+                    "sha256": "56ba13a7e1721ae17a015138649ef6ef4970e99d7ff47322f296a69f1734fb3e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -381,8 +381,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/kdev-php-25.08.2.tar.xz",
-                    "sha256": "ee6e08254eaf11e67decbb18e6c172c503042da84038099382bca1266e3b990d",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/kdev-php-25.08.3.tar.xz",
+                    "sha256": "f52ef2928d2ef9dcb21f31ad28db9ce4309c6ad4f4fbc6a9d09ea0737286d4c6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -398,8 +398,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v4.1.2/cmake-4.1.2.tar.gz",
-                    "sha256": "643f04182b7ba323ab31f526f785134fb79cba3188a852206ef0473fee282a15",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v4.2.1/cmake-4.2.1.tar.gz",
+                    "sha256": "414aacfac54ba0e78e64a018720b64ed6bfca14b587047b8b3489f407a14a070",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
