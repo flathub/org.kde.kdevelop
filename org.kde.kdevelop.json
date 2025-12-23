@@ -130,8 +130,8 @@
             "name": "boost",
             "buildsystem": "simple",
             "build-commands": [
-                "mkdir -p ${FLATPAK_DEST}/include/boost",
-                "cp -r boost/* ${FLATPAK_DEST}/include/boost"
+                "./bootstrap.sh --prefix=/app --with-libraries=system",
+                "./b2 -j $FLATPAK_BUILDER_N_JOBS install"
             ],
             "sources": [
                 {
