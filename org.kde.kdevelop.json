@@ -95,8 +95,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/JuliaStrings/utf8proc.git",
-                    "tag": "v2.11.2",
-                    "commit": "90daf9f396cfec91668758eb9cc54bd5248a6b89",
+                    "tag": "v2.11.3",
+                    "commit": "e5e799221b45bbb90f5fdc5c69b6b8dfbf017e78",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
