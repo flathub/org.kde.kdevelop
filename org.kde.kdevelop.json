@@ -95,8 +95,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/JuliaStrings/utf8proc.git",
-                    "tag": "v2.11.2",
-                    "commit": "90daf9f396cfec91668758eb9cc54bd5248a6b89",
+                    "tag": "v2.11.3",
+                    "commit": "e5e799221b45bbb90f5fdc5c69b6b8dfbf017e78",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -236,8 +236,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.tcpdump.org/release/libpcap-1.10.5.tar.gz",
-                    "sha256": "37ced90a19a302a7f32e458224a00c365c117905c2cd35ac544b6880a81488f0",
+                    "url": "https://www.tcpdump.org/release/libpcap-1.10.6.tar.gz",
+                    "sha256": "872dd11337fe1ab02ad9d4fee047c9da244d695c6ddf34e2ebb733efd4ed8aa9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1702,
