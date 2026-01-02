@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.19.0.tar.gz",
-                    "sha256": "c6cff9d3bbcb3da941bf7f525ae974b6c7af3d610c4c5519fcd1be3f21f5ae09",
+                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.19.1.tar.gz",
+                    "sha256": "49bdf1d7826d60053575b78d3192d81d54970dbfb356590f7476de250b1a4234",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 357,
@@ -95,8 +95,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/JuliaStrings/utf8proc.git",
-                    "tag": "v2.11.2",
-                    "commit": "90daf9f396cfec91668758eb9cc54bd5248a6b89",
+                    "tag": "v2.11.3",
+                    "commit": "e5e799221b45bbb90f5fdc5c69b6b8dfbf017e78",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -236,8 +236,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.tcpdump.org/release/libpcap-1.10.5.tar.gz",
-                    "sha256": "37ced90a19a302a7f32e458224a00c365c117905c2cd35ac544b6880a81488f0",
+                    "url": "https://www.tcpdump.org/release/libpcap-1.10.6.tar.gz",
+                    "sha256": "872dd11337fe1ab02ad9d4fee047c9da244d695c6ddf34e2ebb733efd4ed8aa9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1702,
