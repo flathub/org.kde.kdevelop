@@ -156,8 +156,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/libkomparediff2-25.12.1.tar.xz",
-                    "sha256": "e7316aca83f1a1c062104cf792080d0780841d17bdf88ea8fcb1696910030082",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/libkomparediff2-25.12.2.tar.xz",
+                    "sha256": "2d3df40d4b96a00ce19dd5179b36447e6ec137db8656d5eb979c077fc19cb643",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -274,8 +274,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/konsole-25.12.1.tar.xz",
-                    "sha256": "808c418d9a24dd0249ffac6ea8c7f3d4bc6d2de1087d17062bd9b15c60e356d9",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/konsole-25.12.2.tar.xz",
+                    "sha256": "8220069844051b584c553b7e7da4c3c1ec66f9a79f2f386baa1a9b91436f5046",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -341,8 +341,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/kdevelop-25.12.1.tar.xz",
-                    "sha256": "46c51c2fbb2a1f7a806651020496a53c565b3d982b6d45a151c666e535b2a8ad",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kdevelop-25.12.2.tar.xz",
+                    "sha256": "6464ff2f271f393ace4ba7da4f23fbef48b359998b12d9486f5d19e56437a669",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -361,8 +361,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/kdev-python-25.12.1.tar.xz",
-                    "sha256": "11d419521746ce5e68be530206a25a85e5c5c4e6dd3c87932c1f0921b7da1cf5",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kdev-python-25.12.2.tar.xz",
+                    "sha256": "cbaa04337b548b941146be53894d91c4ef90a54bcd5b496641b9f66a8c89859b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -381,8 +381,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/kdev-php-25.12.1.tar.xz",
-                    "sha256": "efe3476d5cefc06be9b77b4fe88395e4b4dc5891411c87255e0856360345be0b",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kdev-php-25.12.2.tar.xz",
+                    "sha256": "a58c5eb75e2d04c7dba75571e99e6c2a633789d0228d215b6051887958716f1e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
