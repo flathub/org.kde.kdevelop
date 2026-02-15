@@ -12,7 +12,7 @@
     "add-extensions": {
         "org.freedesktop.Sdk.Extension.llvm20": {
             "no-autodownload": false,
-            "version": "24.08"
+            "version": "25.08"
         }
     },
     "command": "kdevelop",
