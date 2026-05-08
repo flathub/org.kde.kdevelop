@@ -156,8 +156,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/libkomparediff2-26.04.0.tar.xz",
-                    "sha256": "b05d1eedec1f500de7931da4a4dd8aa9514c021b27e00b3cac7118d0ec425e8c",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/libkomparediff2-26.04.1.tar.xz",
+                    "sha256": "3d4dde544fa4e65337a31efe9ddad0bd3567159ea7dfe189a5757a3c312f41af",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -176,8 +176,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.24/krunner-6.24.0.tar.xz",
-                    "sha256": "5775d7292a31c0ca339b385c18f3716fda5486317423c53809a10d8008ff8e4d",
+                    "url": "https://download.kde.org/stable/frameworks/6.26/krunner-6.26.0.tar.xz",
+                    "sha256": "3519c7fe170be1359a4c38dd5269de64c0208ccfeb950661002ddfa4e92f2bf0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -215,8 +215,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/lm-sensors/lm-sensors/archive/V3-6-0/lm-sensors-3-6-0.tar.gz",
-                    "sha256": "0591f9fa0339f0d15e75326d0365871c2d4e2ed8aa1ff759b3a55d3734b7d197",
+                    "url": "https://github.com/lm-sensors/lm-sensors/archive/V3-6-2/lm-sensors-3-6-2.tar.gz",
+                    "sha256": "c6a0587e565778a40d88891928bf8943f27d353f382d5b745a997d635978a8f0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1831,
@@ -274,8 +274,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/konsole-26.04.0.tar.xz",
-                    "sha256": "a413aea8c336b2f452f2daeb9685de6c4a17ba8bb2c1a8a54c3c449693f922eb",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/konsole-26.04.1.tar.xz",
+                    "sha256": "4c59dabc4b64201c61458e8997a66d1aa7dc98b181e5e85f3c0f5cb69066d963",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -311,8 +311,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.24/ktexttemplate-6.24.0.tar.xz",
-                    "sha256": "85021f69f61d09fe5b1b01075dff4fc90b4d3598f7e83bdd4fee31d4a01488e0",
+                    "url": "https://download.kde.org/stable/frameworks/6.26/ktexttemplate-6.26.0.tar.xz",
+                    "sha256": "8b84643c32caf58812fec5a910a1fb98865bc7f91e778af860fa98b79d0ff038",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -341,8 +341,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/kdevelop-26.04.0.tar.xz",
-                    "sha256": "4af9c4a2a7d3c9c76caa53556ee756e1179b31e91363a909fcc3dbba64d8e3ca",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/kdevelop-26.04.1.tar.xz",
+                    "sha256": "c9354e8f9e2a881eb664c16355bf2341ed83747771cfa3b23eeb1701dcf7486b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -361,8 +361,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/kdev-python-26.04.0.tar.xz",
-                    "sha256": "9e89b3019b09245289e22b06b4b81996fad1228f126f08506175763dd7fb482c",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/kdev-python-26.04.1.tar.xz",
+                    "sha256": "fad514d7081d24c8f6d4b2673c1d6121676657d40bb496cc181452cb05226910",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -381,8 +381,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/kdev-php-26.04.0.tar.xz",
-                    "sha256": "442cddea8dd86c1190b9c705fdbedfeeac2f33d5550ad3554ebc006a458b3121",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/kdev-php-26.04.1.tar.xz",
+                    "sha256": "26c660e0e27b23460e9400a4b91fe730fb2ee8dc8ac300dcae2374a190614d8b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -398,8 +398,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v4.3.1/cmake-4.3.1.tar.gz",
-                    "sha256": "0798f4be7a1a406a419ac32db90c2956936fecbf50db3057d7af47d69a2d7edb",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v4.3.2/cmake-4.3.2.tar.gz",
+                    "sha256": "b0231eb39b3c3cabdc568c619df78208a7bd95ea10c9b2236d61218bac1b367d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
