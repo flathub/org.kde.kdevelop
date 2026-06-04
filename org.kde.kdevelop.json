@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.20.1.tar.gz",
-                    "sha256": "97634b598b8adf23e6cbd75aec5a8ac2d8b5f49f53e6a145b1c8380525c48a91",
+                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.21.0.tar.gz",
+                    "sha256": "f028ff75ca5372738f3737c8b3e8611426a6526b6aea2ef01301ab0f5902f044",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 357,
@@ -156,8 +156,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/libkomparediff2-26.04.1.tar.xz",
-                    "sha256": "3d4dde544fa4e65337a31efe9ddad0bd3567159ea7dfe189a5757a3c312f41af",
+                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/libkomparediff2-26.04.2.tar.xz",
+                    "sha256": "31fed1758f80e560852ad15bc24d6e9778c1a5983ea2fb7ee0081795a0175010",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -274,8 +274,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/konsole-26.04.1.tar.xz",
-                    "sha256": "4c59dabc4b64201c61458e8997a66d1aa7dc98b181e5e85f3c0f5cb69066d963",
+                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/konsole-26.04.2.tar.xz",
+                    "sha256": "d81a696d6a316d0c8fabe3cecd83783f656ee97c70ced89513b3fd16e9d216ac",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -341,8 +341,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/kdevelop-26.04.1.tar.xz",
-                    "sha256": "c9354e8f9e2a881eb664c16355bf2341ed83747771cfa3b23eeb1701dcf7486b",
+                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/kdevelop-26.04.2.tar.xz",
+                    "sha256": "ed6a5c6d4b9a55b433a1a66db69704e31d742279c4e767d9d3e8c7de1a9c5f37",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -361,8 +361,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/kdev-python-26.04.1.tar.xz",
-                    "sha256": "fad514d7081d24c8f6d4b2673c1d6121676657d40bb496cc181452cb05226910",
+                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/kdev-python-26.04.2.tar.xz",
+                    "sha256": "002d538d62067891e7ba84c8d22eadbe2e769df3f9a3205be917c0681d5d55e0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -381,8 +381,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/kdev-php-26.04.0.tar.xz",
-                    "sha256": "442cddea8dd86c1190b9c705fdbedfeeac2f33d5550ad3554ebc006a458b3121",
+                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/kdev-php-26.04.2.tar.xz",
+                    "sha256": "ad336937b6e148a848d5794ea300e7f28426cf35d0cea63f5a728c2b96ad98b9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
