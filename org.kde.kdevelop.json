@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.21.0.tar.gz",
-                    "sha256": "f028ff75ca5372738f3737c8b3e8611426a6526b6aea2ef01301ab0f5902f044",
+                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.21.1.tar.gz",
+                    "sha256": "ba750bd872ad7c01f951ff2d9dc8c68ea5852654545ec7a62a4c318d690c8e22",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 357,
@@ -257,8 +257,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.7.0/libksysguard-6.7.0.tar.xz",
-                    "sha256": "e34c01438399fc23090cde4d47225bcd8f60899d138ecae99cc599659536ace3",
+                    "url": "https://download.kde.org/stable/plasma/6.7.1/libksysguard-6.7.1.tar.xz",
+                    "sha256": "3fba2b15de913eb37624c44ec3f3bd88734d0a422abef6fa8284f67260e713f3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
