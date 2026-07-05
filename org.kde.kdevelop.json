@@ -156,8 +156,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/libkomparediff2-26.04.2.tar.xz",
-                    "sha256": "31fed1758f80e560852ad15bc24d6e9778c1a5983ea2fb7ee0081795a0175010",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/libkomparediff2-26.04.3.tar.xz",
+                    "sha256": "dd77529a93ac3f9aefe571961e8f7ab14c416f3164a524c6588284bcc1ac817b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -361,8 +361,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/kdev-python-26.04.2.tar.xz",
-                    "sha256": "002d538d62067891e7ba84c8d22eadbe2e769df3f9a3205be917c0681d5d55e0",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kdev-python-26.04.3.tar.xz",
+                    "sha256": "1ad26eccfd1cc28b4cf5ffb91b252739b1b954d9a989446e1e0809ecda8c5a52",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
