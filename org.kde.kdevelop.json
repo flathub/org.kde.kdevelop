@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.21.1.tar.gz",
-                    "sha256": "ba750bd872ad7c01f951ff2d9dc8c68ea5852654545ec7a62a4c318d690c8e22",
+                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.22.0.tar.gz",
+                    "sha256": "d74945deb2d50393430e07596b766f8a779512c7f60dac2a30ea64e059ece57b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 357,
@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://dlcdn.apache.org//apr/apr-util-1.6.3.tar.bz2",
-                    "sha256": "a41076e3710746326c3945042994ad9a4fcac0ce0277dd8fea076fec3c9772b5",
+                    "url": "https://dlcdn.apache.org//apr/apr-util-1.6.5.tar.bz2",
+                    "sha256": "96de1dd6f6a0476d2d2e7964926d8c1ddc3bb0e210e1b1812d3ba5a454a392e2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 96,
@@ -136,8 +136,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.90.0/source/boost_1_90_0.tar.bz2",
-                    "sha256": "49551aff3b22cbc5c5a9ed3dbc92f0e23ea50a0f7325b0d198b705e8ee3fc305",
+                    "url": "https://archives.boost.io/release/1.92.0/source/boost_1_92_0.tar.bz2",
+                    "sha256": "5c1d40cb8e19adbf740a4ec2da35b3e58f3f5804b1dce44deb53df72193cbc6c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -156,8 +156,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/libkomparediff2-26.04.3.tar.xz",
-                    "sha256": "dd77529a93ac3f9aefe571961e8f7ab14c416f3164a524c6588284bcc1ac817b",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/libkomparediff2-26.08.1.tar.xz",
+                    "sha256": "d222901b0a90f853f21e86bf08db73c3edb65e8d4bbf820626512df82c8430c2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -176,8 +176,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.27/krunner-6.27.0.tar.xz",
-                    "sha256": "46d06321bbccadb8f3fbb948ffaac5eff18dad9552fde677761ddddb9470202f",
+                    "url": "https://download.kde.org/stable/frameworks/6.30/krunner-6.30.0.tar.xz",
+                    "sha256": "0885d0936aec6dc8553c673f1c685013e345b933a52812a07c5bddd1eebdb551",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -236,8 +236,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.tcpdump.org/release/libpcap-1.10.6.tar.gz",
-                    "sha256": "872dd11337fe1ab02ad9d4fee047c9da244d695c6ddf34e2ebb733efd4ed8aa9",
+                    "url": "https://www.tcpdump.org/release/libpcap-1.11.0.tar.gz",
+                    "sha256": "596389bc8560ea027dff9db8aaf6c173d992366d9aef4baf5d7c6d180b4d49ad",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1702,
@@ -257,8 +257,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.7.2/libksysguard-6.7.2.tar.xz",
-                    "sha256": "6f7dbf058e453c6d2d643cf5cf25051aa0398fa3c8f3cb754bf2e46434d94cd7",
+                    "url": "https://download.kde.org/stable/plasma/6.7.5/libksysguard-6.7.5.tar.xz",
+                    "sha256": "9069bcf3fe4e491ea774d0d70eb17f99b567299871045a38543fcabcdb56dfc4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -274,8 +274,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/konsole-26.04.3.tar.xz",
-                    "sha256": "fe54d0297c24a52b2ec8ebf45bf75b22736f65301663846b8f3539044943e1ac",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/konsole-26.08.1.tar.xz",
+                    "sha256": "64d8aaba741f4412ede26ffbbbe3824523e941b725d3046ec27f510fd42d82e6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -311,8 +311,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.27/ktexttemplate-6.27.0.tar.xz",
-                    "sha256": "18a92b802b1c3130ff22087f9e048807bdf39c4147835e9aaa1be18408b9361b",
+                    "url": "https://download.kde.org/stable/frameworks/6.30/ktexttemplate-6.30.0.tar.xz",
+                    "sha256": "c3c229944d25294102e4e8a5b49fa0c0f481da9d33f8bec3782e8a53afd47493",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -341,8 +341,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kdevelop-26.04.3.tar.xz",
-                    "sha256": "a940a83b0752578fb04b700b8d274044e23543a68850cbc448dbdcb874ae75f4",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kdevelop-26.08.1.tar.xz",
+                    "sha256": "dd77921d7e403bfbb60bfa8a7998a2e2c1eb53ab7b4b1a2f8a52360493c586ab",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -361,8 +361,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kdev-python-26.04.3.tar.xz",
-                    "sha256": "1ad26eccfd1cc28b4cf5ffb91b252739b1b954d9a989446e1e0809ecda8c5a52",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kdev-python-26.08.1.tar.xz",
+                    "sha256": "b134e0b58307099b49dd3043d5d199d5fe589e543395c3c7a1e65965fd3f4b3d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -381,8 +381,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kdev-php-26.04.3.tar.xz",
-                    "sha256": "d25d4ec3c20fa6d4569ab6f0beb6b18bd33b35914957348a1d5ea8e09f4a1693",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kdev-php-26.08.1.tar.xz",
+                    "sha256": "cbb566e00335153e824bb6b20f8f4db554e2b224f1dc5035ec7e4665bebf1d5d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -398,8 +398,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v4.4.0/cmake-4.4.0.tar.gz",
-                    "sha256": "65757f442fdd242e27f1728fc26dc0cba4164f7a0791a5c788631c00080369bc",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v4.4.3/cmake-4.4.3.tar.gz",
+                    "sha256": "c46400618b4f1f2b43507f24fb22f3ae830c3416cf23b776e16e1d413aa892f0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
