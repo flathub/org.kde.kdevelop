@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.21.1.tar.gz",
-                    "sha256": "ba750bd872ad7c01f951ff2d9dc8c68ea5852654545ec7a62a4c318d690c8e22",
+                    "url": "https://github.com/danmar/cppcheck/archive/refs/tags/2.22.0.tar.gz",
+                    "sha256": "d74945deb2d50393430e07596b766f8a779512c7f60dac2a30ea64e059ece57b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 357,
@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://dlcdn.apache.org//apr/apr-util-1.6.3.tar.bz2",
-                    "sha256": "a41076e3710746326c3945042994ad9a4fcac0ce0277dd8fea076fec3c9772b5",
+                    "url": "https://dlcdn.apache.org//apr/apr-util-1.6.6.tar.bz2",
+                    "sha256": "aa77dd25f036731b7246abbfbebe6cc813b42799b62c874bc82bd4e1f90f2918",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 96,
@@ -95,8 +95,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/JuliaStrings/utf8proc.git",
-                    "tag": "v2.11.3",
-                    "commit": "e5e799221b45bbb90f5fdc5c69b6b8dfbf017e78",
+                    "tag": "v2.12.0",
+                    "commit": "79cdd5ab40c79afa559f689ffc13b76812dee1ac",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
@@ -136,8 +136,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.90.0/source/boost_1_90_0.tar.bz2",
-                    "sha256": "49551aff3b22cbc5c5a9ed3dbc92f0e23ea50a0f7325b0d198b705e8ee3fc305",
+                    "url": "https://archives.boost.io/release/1.92.0/source/boost_1_92_0.tar.bz2",
+                    "sha256": "5c1d40cb8e19adbf740a4ec2da35b3e58f3f5804b1dce44deb53df72193cbc6c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -236,8 +236,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.tcpdump.org/release/libpcap-1.10.6.tar.gz",
-                    "sha256": "872dd11337fe1ab02ad9d4fee047c9da244d695c6ddf34e2ebb733efd4ed8aa9",
+                    "url": "https://www.tcpdump.org/release/libpcap-1.11.0.tar.gz",
+                    "sha256": "596389bc8560ea027dff9db8aaf6c173d992366d9aef4baf5d7c6d180b4d49ad",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1702,
@@ -398,8 +398,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Kitware/CMake/releases/download/v4.4.0/cmake-4.4.0.tar.gz",
-                    "sha256": "65757f442fdd242e27f1728fc26dc0cba4164f7a0791a5c788631c00080369bc",
+                    "url": "https://github.com/Kitware/CMake/releases/download/v4.4.5/cmake-4.4.5.tar.gz",
+                    "sha256": "a0c54c88abb8078dd8eccadb717fc6bb194bf18e7d44c86309910288886e04e2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 306,
